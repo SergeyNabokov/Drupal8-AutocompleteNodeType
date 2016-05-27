@@ -1,0 +1,4 @@
+name: Drupal 8 Autocomplete node type
+description: Module for Drupal 8 which allows you to add content type name into autocomplete field prompt
+type: module
+core: 8.x

@@ -1,0 +1,4 @@
+services:
+  autocomplete_node_type.autocomplete_matcher:
+    class: 'Drupal\autocomplete_node_type\AutocompleteNodeTypeMatcher'
+    arguments: ['@plugin.manager.entity_reference_selection']

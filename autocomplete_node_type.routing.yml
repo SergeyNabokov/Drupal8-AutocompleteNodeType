@@ -1,0 +1,6 @@
+autocomplete_node_type.init:
+  path: '/entity_reference_autocomplete/{target_type}/{selection_handler}/{selection_settings_key}'
+  defaults:
+    _controller: '\Drupal\autocomplete_node_type\Controller\AutocompleteNodeTypeController::handleAutocomplete'
+  requirements:
+    _access: 'TRUE'
